@@ -2,10 +2,12 @@
   "name": "courses-mui",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run --settings settings.json"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.36",
+    "@material-ui/core": "^1.2.3",
+    "contentful": "^6.1.1",
     "meteor-node-stubs": "^0.3.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
